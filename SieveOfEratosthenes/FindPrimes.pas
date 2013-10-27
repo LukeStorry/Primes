@@ -1,15 +1,12 @@
 //Written by Luke Storry
 
-//Primes Project
+//Part of my Primes Project:    github.com/LukeStorry/Primes
 
-
-program SieveOfEratosthenes;
+program FindPrimes;
 
 var
-  allNumbers : Array[0..1000000] of Integer;
+  allNumbers : Array[0..100000] of Boolean;
   n , i , j , numcount   : Integer;
-
-
 
 begin   //Main Program
  Writeln('Prime Numbers Finder');
@@ -23,12 +20,12 @@ begin   //Main Program
  Readln(n); Writeln; Writeln;
 
 
- for i:=2 to n do allNumbers[i] := i; //initializes numberline
+ for i:=2 to n do allNumbers[i] := True; //initializes array
 
  for i:=2 to Round(Sqrt(n)) do
    begin
-     if not (allNumbers[i] = 0) then      //if current number is not marked as non-prime
-       for j:=2 to n do allNumbers[i*j] := 0 //mark all multiples of i as non-prime
+     if (allNumbers[i] = True) then   //if current number is marked as prime
+       for j:=2 to n do allNumbers[i*j] := false //mark all multiples of i as non-prime
    end;
 
 
@@ -36,7 +33,7 @@ begin   //Main Program
 
  for i:=2 to n do
    begin
-       if not (allNumbers[i] = 0) then      //if current number is not marked as non-prime
+       if (allNumbers[i] = true) then    //if current number is marked as prime
          begin
             Write(i:5, ' ');  //output that number in the list of primes
             numcount += 1;
