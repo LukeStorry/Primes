@@ -34,7 +34,7 @@
     </RunParams>
     <Units Count="1">
       <Unit0>
-        <Filename Value="SieveOfEratosthenes.lpr"/>
+        <Filename Value="FindPrimes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="SieveOfEratosthenes"/>
       </Unit0>
@@ -43,7 +43,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="SieveOfEratosthenes"/>
+      <Filename Value="FindPrimes"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
