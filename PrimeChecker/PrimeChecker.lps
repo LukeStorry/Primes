@@ -5,7 +5,7 @@
     <BuildModes Active="Default"/>
     <Units Count="1">
       <Unit0>
-        <Filename Value="PrimeChecker.lpr"/>
+        <Filename Value="PrimeChecker.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="PrimeChecker"/>
         <IsVisibleTab Value="True"/>
@@ -20,39 +20,6 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="8" HistoryIndex="7">
-      <Position1>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="4" Column="18" TopLine="1"/>
-      </Position1>
-      <Position2>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="14" Column="17" TopLine="1"/>
-      </Position2>
-      <Position3>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="15" Column="32" TopLine="1"/>
-      </Position3>
-      <Position4>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="18" Column="18" TopLine="1"/>
-      </Position4>
-      <Position5>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="15" Column="32" TopLine="1"/>
-      </Position5>
-      <Position6>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="16" Column="26" TopLine="1"/>
-      </Position6>
-      <Position7>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="15" Column="20" TopLine="1"/>
-      </Position7>
-      <Position8>
-        <Filename Value="PrimeChecker.lpr"/>
-        <Caret Line="19" Column="37" TopLine="1"/>
-      </Position8>
-    </JumpHistory>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>

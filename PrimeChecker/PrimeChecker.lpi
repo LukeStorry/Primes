@@ -34,7 +34,7 @@
     </RunParams>
     <Units Count="1">
       <Unit0>
-        <Filename Value="PrimeChecker.lpr"/>
+        <Filename Value="PrimeChecker.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="PrimeChecker"/>
       </Unit0>
